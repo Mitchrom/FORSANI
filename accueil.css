@@ -90,3 +90,15 @@ header>section{
     #projet>div:last-child{
         margin: 25% 2% 25% 0%;
     }
+
+
+
+
+footer{
+    display: grid;
+    grid-template-columns: 100%;
+}
+    footer>div:first-child{
+        display: grid;
+        grid-template-columns: 40% 40%;
+    }
