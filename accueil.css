@@ -1,0 +1,92 @@
+header{
+    margin: 0;
+    padding: 0;
+}
+section,div{
+    outline: 1px solid black;
+}
+header>section{
+    display: grid;
+    grid-template-columns: 50%;
+    justify-content: center;
+    align-items: center;
+    background-image: url('random.png');
+}
+    header>section>div{
+        text-align: center;
+    }
+
+
+
+
+
+#mission{
+    display: grid;
+    grid-template-columns: 75%;
+    justify-content: center;
+}
+    #mission>div:last-child{
+        display: grid;
+        grid-template-columns: 15% 15% 15% 15% 15%;
+        justify-content: space-evenly;
+    }
+        #mission>div:first-child{
+            text-align: center;
+        }
+        #mission>div:last-child>div>div{
+            text-align: center;
+        }
+
+
+
+
+
+#vision{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    width: 100%;
+}
+
+    #vision>div:first-child{
+        display: grid;
+        background-image: url('random.png');
+        margin-right: 1%;
+    }
+
+    #vision>div:last-child{
+        display: grid;
+        /*grid-template-rows: 15% 45% auto;*/
+        align-content: space-around;
+        margin-left: 5%;
+        background-color: rgb(243, 243, 243);
+    }
+        #vision>div:last-child>div:first-child{
+            text-align: start;
+        }
+        #vision>div:last-child>div:nth-child(2){
+            text-align: justify;
+        }
+            #vision>div:last-child>div:nth-child(2)>p{
+                margin: 5% 40% 5% 0%;
+            }
+        #vision>div:last-child>div:last-child{
+            text-align: start;
+        }
+
+
+
+#projet{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    margin: 5% 25% 5% 25%;
+    background-color: blue;
+}
+    #projet>div:first-child{
+        background-image: url('random.png');
+        margin: 25% 5% 25% 2%;
+    }
+    #projet>div:last-child{
+        margin: 25% 2% 25% 0%;
+    }
